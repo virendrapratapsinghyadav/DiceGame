@@ -4,8 +4,8 @@
  const Rules = () => {
    return (
      <Rulescontainer>
-        <div>
-            <h1>How to play dice game</h1>
+        <div className='text'>
+            <h2>How to play dice game</h2>
             <p>Select any number.</p>
             <p>Click on dice image. </p>
             <p>After click on dice if selected number is equal to dice number you will get same point as dice. </p>
@@ -19,5 +19,16 @@
 
 
  const Rulescontainer = styled.div`
- 
+ background-color:#fbf1f1;
+ padding: 20px;
+ h2{
+ font-size: 24px;
+ }
+ .text{
+ margin-top: 24px;
+ }
+ max-width: 800px;
+ margin: 0 auto;
+ margin-top: 40px;
+ border-radius: 10px;
  `;
